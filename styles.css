@@ -77,29 +77,30 @@ svg {
   padding-left: 1rem;
   grid-template-columns: 1fr 1fr;
   background-color: #e5e7eb;
+  justify-content: start;
 }
 .projects {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 .gridRight {
+  padding-left: 2rem;
   display: grid;
   grid-template-rows: 1fr 1fr;
-  row-gap: 1rem;
   width: 40%;
 }
 
 .project {
   border-radius: 10px;
-  width: 300px;
-  height: 150px;
   text-align: justify;
   padding: 5% 5% 5% 5%;
   border-left-style: solid;
   border-left-color: orange;
   border-left-width: 10px;
   background-color: white;
+  box-shadow: 2px 2px 8px;
 }
 
 .gridRight div {
@@ -111,4 +112,5 @@ svg {
   width: 50%;
   height: 70%;
   text-align: center;
+  box-shadow: 2px 2px;
 }
