@@ -47,9 +47,9 @@ svg {
 /* main -  header*/
 .mainTop {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2fr;
   grid-template-rows: 1fr 1fr;
-  box-shadow: 2px 0px 8px;
+  box-shadow: 0px 20px 0px;
 }
 
 .topBar {
@@ -60,8 +60,8 @@ svg {
 }
 
 #searchBar {
-  width: 30vw;
-  height: 20px;
+  width: 50vw;
+  height: 30px;
   border-radius: 5px;
 }
 
