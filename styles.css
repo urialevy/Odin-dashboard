@@ -16,6 +16,15 @@ svg {
   padding-right: 1rem;
 }
 
+button {
+  background-color: #06b6d4;
+  color: white;
+  width: 6rem;
+  height: 3rem;
+  border-style: none;
+  border-radius: 10px;
+}
+
 /* navigation - left */
 
 .sidebar {
@@ -23,7 +32,7 @@ svg {
   padding-right: 10rem;
   display: grid;
   grid-template-rows: 0.1fr 1fr 1fr;
-  background-color: #0369a1;
+  background-color: #06b6d4;
   color: white;
 }
 
@@ -63,6 +72,19 @@ svg {
   width: 50vw;
   height: 30px;
   border-radius: 5px;
+}
+
+.botBar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: end;
+  padding-bottom: 1rem;
 }
 
 /* main - content section */
